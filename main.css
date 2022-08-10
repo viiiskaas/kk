@@ -1,0 +1,77 @@
+.navbar{
+    background: url("hero.png") ;
+    size: cover;
+    height: 700px;
+    padding-left: 10px;
+    
+}
+
+.navbar .container
+{
+    display: flex;
+
+justify-content: space-between;
+align-items: center; 
+}
+
+.menu
+{
+    list-style-type: none;
+    margin:0;
+    padding-left: 20px;
+    padding: 20px;
+    margin-bottom: 0;
+
+}
+
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    display: inline-block;
+}
+a{
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.wrap{
+    display: flex;
+    flex-flow: row nowrap;
+   
+}
+
+.txt{
+    display: inline-block;   
+    color: #D67E35;
+    text-decoration: none;
+    padding-left: 100px;
+    transition: all .07s ease-in-out;
+    font-size: 3rem;
+     list-style-type: none;
+}
+
+#kk{
+    font-size: 6rem;
+}
+
+.men{
+    padding: 10px;
+    padding-right: 70px;
+    list-style-type: none;
+
+}
+
+.dd{
+    background-color: #D67E35;
+}
+
+.cart{
+    border-right: 1px solid #FFFFFF;
+padding-right: 20px;
+height: 70 px;
+}
+
+ 
